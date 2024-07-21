@@ -4,10 +4,10 @@
     "slug": "Hexflora",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/imeg.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/ff.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/imeg.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lemang.Hexflora"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "57dfb198-6f13-4cbe-b7c0-a2816abb4dee"
+      }
     }
   }
 }
